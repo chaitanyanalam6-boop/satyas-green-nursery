@@ -27,6 +27,10 @@ export function callLink(number = nursery.primaryPhone) {
   return `tel:+91${number}`
 }
 
+export function gmailLink(email = nursery.email) {
+  return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`
+}
+
 export function mapsLink() {
   // Text-address geocoding (even the Plus Code) proved unreliable — using the
   // exact coordinates directly pins the precise spot with no ambiguity.

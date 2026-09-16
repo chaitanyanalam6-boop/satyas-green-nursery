@@ -1,6 +1,6 @@
 import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { useState } from 'react'
-import { callLink, mapsLink, nursery, whatsappLink } from '../data/site'
+import { callLink, gmailLink, mapsLink, nursery, whatsappLink } from '../data/site'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', phone: '', message: '' })
@@ -72,7 +72,12 @@ export default function Contact() {
             </span>
             <div>
               <h3 className="font-semibold text-cream">Email</h3>
-              <a href={`mailto:${nursery.email}`} className="mt-1 block text-sm text-cream-dim hover:text-sage">
+              <a
+                href={gmailLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 block text-sm text-cream-dim hover:text-sage"
+              >
                 {nursery.email}
               </a>
             </div>

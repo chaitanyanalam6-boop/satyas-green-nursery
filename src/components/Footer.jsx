@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import { footerLinks, mapsLink, nursery } from '../data/site'
+import { footerLinks, gmailLink, mapsLink, nursery } from '../data/site'
 import { InstagramIcon, YoutubeIcon } from './SocialIcons'
 
 export default function Footer() {
@@ -82,7 +82,9 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2.5">
                 <Mail size={16} className="mt-0.5 shrink-0 text-sage" />
-                <span>{nursery.email}</span>
+                <a href={gmailLink()} target="_blank" rel="noopener noreferrer" className="hover:text-sage">
+                  {nursery.email}
+                </a>
               </div>
             </div>
           </div>
