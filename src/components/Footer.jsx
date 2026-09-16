@@ -24,7 +24,13 @@ export default function Footer() {
               >
                 <MapPin size={16} />
               </a>
-              <a href={nursery.social.instagram} aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-full bg-panel-light text-cream-dim hover:text-cream">
+              <a
+                href={nursery.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-panel-light text-cream-dim hover:text-cream"
+              >
                 <InstagramIcon size={16} />
               </a>
               <a href={nursery.social.youtube} aria-label="YouTube" className="flex h-9 w-9 items-center justify-center rounded-full bg-panel-light text-cream-dim hover:text-cream">

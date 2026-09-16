@@ -12,7 +12,7 @@ export const nursery = {
   primaryPhone: '9346039966',
   email: 'satyasgreennursery@gmail.com',
   social: {
-    instagram: '#',
+    instagram: 'https://www.instagram.com/satyagreennursery',
     youtube: '#',
     maps: '#',
   },
