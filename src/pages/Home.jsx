@@ -50,13 +50,7 @@ function Hero() {
             to="/plants"
             className="flex items-center gap-2 rounded-full bg-sage-dark px-6 py-3.5 text-sm font-semibold text-cream transition-colors hover:bg-sage"
           >
-            Shop Now <ArrowRight size={16} />
-          </Link>
-          <Link
-            to="/plants"
-            className="rounded-full border border-line px-6 py-3.5 text-sm font-semibold text-cream transition-colors hover:border-sage"
-          >
-            Explore Varieties
+            Explore Varieties <ArrowRight size={16} />
           </Link>
         </div>
       </div>
