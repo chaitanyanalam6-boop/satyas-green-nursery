@@ -1,0 +1,7 @@
+node_modules
+dist
+dist-ssr
+*.mov
+*.mp4
+*.log
+.DS_Store
